@@ -1,0 +1,25 @@
+.head_bg{
+	background-color: #F26522;
+	padding:5px 0;
+}
+.social_icon{margin-right: 5px;}
+.contact_info{color: white;}
+.my_menu{margin-top: 75px}
+.my_menu .navbar-default{background: none;border:none;}
+.my_menu .navbar .active a,.my_menu .navbar .active a:hover{background:#F26522;color: white}
+.my_menu .navbar li a:hover,.btn-cs:hover{background:#F26522;color: white}
+.stages{padding: 25px 0;}
+.sss{background: #808080;}
+.sss h3,.footer ul li a{color: white;}
+.footer{background-color: #333333 ;color: white; padding: 25px 0}
+.footer img{background-color: #333333}
+.footer p{ margin-top: 25px;}
+.footer ul,.footer ul li{list-style: none;padding:0; margin: 25px 0 0 0;}
+pre{background:none; /*border:none;*/ color: white;}
+pre:hover{background:#F5F5F5; /*border:1px solid #F5F5F5;*/ color: black;}
+
+
+@media(max-width: 1200px){.my_menu .pull-right{float: none !important ;}}
+@media screen and (max-width: 768px){.pull-right li a{
+	text-align: center;
+}}
